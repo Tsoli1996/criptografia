@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js">codigo.js</script>
+  <title>Secret message</title>
+</head>
+
+<body>
+  <section id='corpo'>
+    <h1>TOP<br> SECRET</h1>
+    <br>
+    <br>
+      
+      <label for='code'><h2>Escolha um código</h2></label>
+      <br>
+      <select id='code'>
+        <option value="1">Cifra de César </option>
+        <option value="2">Base 64</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      
+      <div id='deslocamentoDiv'>
+        <label for="incremento">Incremento</label>
+        <br>
+        <input name='incremento' id='incremento' type='text' value='3'>
+      </div>
+      <br>
+      
+      
+      <div id='operacaoDiv'>
+        <input type='radio' id='codificar' value='codificar' name='operacao' checked>
+        <label for='codificar'>Criptografar</label>
+        <input type='radio' id='decodificar' value='decodificar' name='operacao'>
+        <label for='decodificar'>Descriptografar</label>
+      </div>
+
+      <br>
+      <br>
+      
+      <div id='mensagemDiv'>
+        <label for='mensagem'>Digite sua mensagem</label><br>
+        <textarea name='mensagem' id='mensagem'></textarea>
+      </div>
+      
+      <button name='botao' id='botao' align="center">Criptografe</button>
+      
+  </section><!--Tive dificuldade em usar este popup de forma eficiente-->
+  
+  <div id='escuro'>
+    <div id='popup'>
+      <p id='resultado'>&nbsp;</p>
+      <button name='fechar' id='fechar'>fechar</button>
+    </div>
+  </div>
+  
+</body>
+
+</html>

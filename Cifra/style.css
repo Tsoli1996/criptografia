@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+   
+}
+
+h1{
+    
+    width: 250px;
+    height: 70px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    
+  
+    
+
+}
+
+
+body {
+    padding: 7em;
+    background-image: url(https://wallpaperaccess.com/full/6120351.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+ }
+
+
+
+
+
+#corpo{
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+
+#resultado{
+    font-size: 20pt;
+}
+
+
+
+
+ 
+/*responsividade*/
+
+@media screen and (max-width: 480px) {
+    *, h1, body, .operacaoDiv{
+        width: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
